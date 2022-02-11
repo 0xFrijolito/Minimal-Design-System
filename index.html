@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <title> Design System </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="tc-dark bg-light">
+    <div class="container">
+      <h1> Desing System </h1>
+      <section id="colors" class="mb-4">
+        <h2 class="mb-4"><span class="tc-secondary"> 01 </span> Colors </h2>
+        <div class="flex">
+          <div class="bg-primary bc-primary circle" style="height: 75px; width: 75px;"></div>
+          <div class="bg-success bc-success circle" style="height: 75px; width: 75px;"></div>
+          <div class="bg-info bc-info circle" style="height: 75px; width: 75px;"></div>
+					<div class="bg-warning bc-warning circle" style="height: 75px; width: 75px;"></div>
+          <div class="bg-danger bc-danger circle" style="height: 75px; width: 75px;"></div>
+          <div class="bg-dark circle" style="height: 75px; width: 75px;"></div>
+          <div class="bg-gray circle" style="height: 75px; width: 75px;"></div>
+        </div>
+      </section>
+      <section id="typography">
+        <h2 class="mb-4"><span class="tc-secondary"> 02 </span> Typography </h2>
+	      <div class="flex">
+					<div style="flex-basis: 100%;">
+						<span class="tc-secondary"> Heading 1 - Bellefair Regular - 150px </span> 
+						<h1 class="display-1 mb-3"> JUPITER </h1>
+        		
+            <span class="tc-secondary"> Heading 2 - Bellefair Regular - 100px </span>
+            <h1 class="display-2 mb-3"> SATURN </h1>
+
+            <span class="tc-secondary"> Heading 3 - Bellefair Regular - 56px </span> 
+        		<h1 class="mb-3"> URANO </h1>
+        		
+            <span class="tc-secondary"> Heading 4 - Bellefair Regular - 32px </span>
+            <h2 class="mb-3"> NEPTUNE </h2>
+      		  
+            <span class="tc-secondary"> Heading 5 - Bellefair Regular - 28.5px </span>
+            <h3 class="mb-3"> EARTH </h3>
+          </div>
+          <div style="flex-basis: 100%;">
+            <span class="tc-secondary"> Subheading 1 - Bellefair Regular 28px </span>
+            <h4 class="upper mb-3"> 384.400KM </h4> 
+         
+            <span class="tc-secondary"> Subheading 2 - Bellfair Regular 14px </span>
+            <h5 class="upper mb-3"> AVG. Distance </h5> 
+             
+            <span class="tc-secondary mb-0"> Body Text </span>
+            <p class="mb-0"> 
+              Lorem ipsum dolor sit amet consectetur adipiscing elit consequat tincidunt parturient, natoque curae taciti convallis nisi libero ornare rhoncus montes, 
+              vehicula primis duis lacinia aliquet tristique mauris senectus eleifend. Porttitor quam tristique auctor aliquam enim at habitasse, felis primis condimentum 
+              a ante eu, platea consequat vel lacinia dignissim placerat. Suspendisse cum diam litora sagittis ante consequat, tincidunt mollis sapien urna hac semper sodales, 
+              vitae mauris vulputate nibh leo.
+            </p>
+            <p>
+              Id taciti hac enim duis vitae sodales fermentum suscipit, magnis felis ullamcorper habitant etiam morbi justo sollicitudin, bibendum tortor cubilia natoque ac 
+              iaculis vulputate. Montes lacus ultrices tellus sapien libero platea dis inceptos nisl vivamus neque nam urna condimentum, cursus ac magna curae ullamcorper augue 
+              cubilia elementum ridiculus semper auctor aenean. Augue fermentum fusce dictum malesuada vel ridiculus mus lacinia gravida velit placerat accumsan nec diam, 
+              arcu id nisi nisl vivamus libero natoque hac dignissim viverra ultricies suspendisse a.
+            </p>
+          </div>
+        </div>
+			</section>
+      <section id="interactions">
+        <h2 class="mb-4"><span class="tc-secondary"> 03 </span> Interactive Items </h2>
+        <div class="flex">
+          <div style="flex-basis: 100%">
+            <button class="button button-primary"> Primary </button>         
+            <button class="button button-success"> Success </button> 
+            <button class="button button-info"> Info </button>
+            <button class="button button-warning"> Warning </button> 
+            <button class="button button-danger"> Danger </button>
+          
+          </div>
+          <div style="flex-basis: 100%">
+            <input type="text" placeholder="Example text">
+            <input type="email" placeholder="example@email.com">
+            <textarea></textarea>
+            <button class="button button-success w-100"> Submit! </button>
+          </div>
+        </div>
+      </section>
+      <section id="information-display">
+        <h2 class="mb-4"><span class="tc-secondary"> 04 </span> Informations Display </h2>
+        <div class="mb-4">
+          <div class="alert alert-primary mb-2 fade"> Primary Alert <span class="alert-kill-button" onclick="killAlert(this)"> x <span> </div>
+          <div class="alert alert-success mb-2"> Success Alert <span class="alert-kill-button" onclick="killAlert(this)"> x <span> </div>
+          <div class="alert alert-warning mb-2"> Warning Alert <span class="alert-kill-button" onclick="killAlert(this)"> x <span> </div>
+          <div class="alert alert-info mb-2"> Info Alert <span class="alert-kill-button" onclick="killAlert(this)"> x <span> </div>
+          <div class="alert alert-danger mb-2"> Danger Alert <span class="alert-kill-button" onclick="killAlert(this)"> x <span> </div> 
+        </div>
+        <div class="flex">
+        </div>
+      </section>
+    </div> 
+    <script src="index.js"></script>
+  </body>
+</html>
